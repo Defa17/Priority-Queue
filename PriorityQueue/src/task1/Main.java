@@ -26,7 +26,7 @@ class Main {
         System.out.println("\nPeek: (элемент с наибольшим приоритетом, заданным компаратором)");
         System.out.println(pq.peek());
         System.out.println();
-        System.out.println("Poll: (удаление элемента с наибольшим приоритетом) " + pq.poll());
+        System.out.println("Poll: (удаление элемента с наибольшим приоритетом) " + pq.pop());
 
         // peek уменьшится, т к был удален элемент большего приоритета
         System.out.println("\nPeek: ");

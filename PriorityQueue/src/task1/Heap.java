@@ -71,7 +71,7 @@ class Heap<T> {
     }
 
     //возвращение и удаление элемента, который имеет наибольший приоритет
-    public T poll() {
+    public T pop() {
         try {
             if (size() == 0) {
                 throw new Exception("Exception: queue is empty");
@@ -108,7 +108,7 @@ class Heap<T> {
     public void clear() {
         System.out.print("Очещена очередь: ");
         while (!list.isEmpty()) {
-            System.out.print(poll() + " ");
+            System.out.print(pop() + " ");
         }
         System.out.println();
     }
